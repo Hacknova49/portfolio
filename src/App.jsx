@@ -6,7 +6,8 @@ import MagnetLines from './MagnetLines/MagnetLines';
 import Beams from './Beams/Beams';
 import TiltedCard from './TiltedCard/TiltedCard';
 import FlowingMenu from './FlowingMenu/FlowingMenu'
-
+import GitHubStats from './components/githubstats';
+import img1 from './img/img1.jpg';
 
 const demoItems = [
   { link: '#', text: 'Mojave', image: 'https://picsum.photos/600/400?random=1' },
@@ -56,78 +57,70 @@ function App() {
             minFontSize={60}
           />
         </div>
-        <div className='grid grid-cols-4 gap-x-8 gap-y-8 justify-items-center'>
-          <div>
-            <TiltedCard
-              imageSrc="https://i.scdn.co/image/ab67616d0000b273d9985092cd88bffd97653b58"
-              altText="Kendrick Lamar - GNX Album Cover"
-              captionText="Kendrick Lamar - GNX"
-              containerHeight="300px"
-              containerWidth="300px"
-              imageHeight="300px"
-              imageWidth="300px"
-              rotateAmplitude={12}
-              scaleOnHover={1.2}
-              showMobileWarning={false}
-              showTooltip={true}
-              displayOverlayContent={true}
-            />
-          </div>
-          <div>
-            <TiltedCard
-              imageSrc="https://i.scdn.co/image/ab67616d0000b273d9985092cd88bffd97653b58"
-              altText="Kendrick Lamar - GNX Album Cover"
-              captionText="Kendrick Lamar - GNX"
-              containerHeight="300px"
-              containerWidth="300px"
-              imageHeight="300px"
-              imageWidth="300px"
-              rotateAmplitude={12}
-              scaleOnHover={1.2}
-              showMobileWarning={false}
-              showTooltip={true}
-              displayOverlayContent={true}
-            />
-          </div>
-          <div>
-            <TiltedCard
-              imageSrc="https://i.scdn.co/image/ab67616d0000b273d9985092cd88bffd97653b58"
-              altText="Kendrick Lamar - GNX Album Cover"
-              captionText="Kendrick Lamar - GNX"
-              containerHeight="300px"
-              containerWidth="300px"
-              imageHeight="300px"
-              imageWidth="300px"
-              rotateAmplitude={12}
-              scaleOnHover={1.2}
-              showMobileWarning={false}
-              showTooltip={true}
-              displayOverlayContent={true}
-            />
-          </div>
-          <div>
-            <TiltedCard
-              imageSrc="https://i.scdn.co/image/ab67616d0000b273d9985092cd88bffd97653b58"
-              altText="Kendrick Lamar - GNX Album Cover"
-              captionText="Kendrick Lamar - GNX"
-              containerHeight="300px"
-              containerWidth="300px"
-              imageHeight="300px"
-              imageWidth="300px"
-              rotateAmplitude={12}
-              scaleOnHover={1.2}
-              showMobileWarning={false}
-              showTooltip={true}
-              displayOverlayContent={true}
-            />
-          </div>
+        <div className='grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-8 justify-items-center'>
+          <TiltedCard
+            imageSrc={img1} 
+            altText="Swagata Mandal"
+            captionText="Swagata Mandal"
+            containerHeight="300px"
+            containerWidth="300px"
+            imageHeight="300px"
+            imageWidth="300px"
+            rotateAmplitude={12}
+            scaleOnHover={1.2}
+            showMobileWarning={false}
+            showTooltip={true}
+            displayOverlayContent={true}
+          />
+          <TiltedCard
+            imageSrc="https://i.scdn.co/image/ab67616d0000b273d9985092cd88bffd97653b58"
+            altText="Kendrick Lamar - GNX Album Cover"
+            captionText="Kendrick Lamar - GNX"
+            containerHeight="300px"
+            containerWidth="300px"
+            imageHeight="300px"
+            imageWidth="300px"
+            rotateAmplitude={12}
+            scaleOnHover={1.2}
+            showMobileWarning={false}
+            showTooltip={true}
+            displayOverlayContent={true}
+          />
+          <TiltedCard
+            imageSrc="https://i.scdn.co/image/ab67616d0000b273d9985092cd88bffd97653b58"
+            altText="Kendrick Lamar - GNX Album Cover"
+            captionText="Kendrick Lamar - GNX"
+            containerHeight="300px"
+            containerWidth="300px"
+            imageHeight="300px"
+            imageWidth="300px"
+            rotateAmplitude={12}
+            scaleOnHover={1.2}
+            showMobileWarning={false}
+            showTooltip={true}
+            displayOverlayContent={true}
+          />
+          <TiltedCard
+            imageSrc="https://i.scdn.co/image/ab67616d0000b273d9985092cd88bffd97653b58"
+            altText="Kendrick Lamar - GNX Album Cover"
+            captionText="Kendrick Lamar - GNX"
+            containerHeight="300px"
+            containerWidth="300px"
+            imageHeight="300px"
+            imageWidth="300px"
+            rotateAmplitude={12}
+            scaleOnHover={1.2}
+            showMobileWarning={false}
+            showTooltip={true}
+            displayOverlayContent={true}
+          />
         </div>
 
         <div style={{ height: '600px', position: 'relative', marginTop: '80px' }} >
           <FlowingMenu items={demoItems} />
         </div>
 
-        <div className='margin-top-10px'>
+        <div style={{ marginTop: '10px' }}>
           <GlitchText
             speed={0.1}
             enableShadows={false}
@@ -138,31 +131,9 @@ function App() {
           </GlitchText>
         </div>
         <div>
-          <MagnetLines
-            rows={9}
-            columns={9}
-            containerSize="60vmin"
-            lineColor="white"
-            lineWidth="0.8vmin"
-            lineHeight="5vmin"
-            baseAngle={0}
-            style={{ margin: "2rem auto" }}
-          />
+          <GitHubStats />
         </div>
-        <div className='grid grid-cols-4 gap-4'>
-          <div>
-            <button>HELLO</button>
-          </div>
-          <div>
-            <button>HELLO</button>
-          </div>
-          <div>
-            <button>HELLO</button>
-          </div>
-          <div>
-            <button>HELLO</button>
-          </div>
-        </div>
+
       </div>
     </>
   )
