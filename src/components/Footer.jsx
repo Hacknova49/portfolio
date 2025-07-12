@@ -28,8 +28,8 @@ const Footer = () => {
               transition={{ duration: 0.6, delay: 0.1 }}
               className="max-w-md text-gray-400"
             >
-              Passionate full-stack developer creating innovative digital solutions 
-              with modern technologies and creative design.
+              Second-year college student exploring programming and technology. 
+              Building projects and learning new skills on the path to becoming a data scientist.
             </motion.p>
           </div>
 

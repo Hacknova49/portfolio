@@ -47,22 +47,22 @@ const AboutSection = () => {
 
   const experiences = [
     {
-      title: 'Full Stack Developer',
-      company: 'Personal Projects',
-      period: '2022 - Present',
-      description: 'Developing web applications using React, Node.js, and modern web technologies. Building responsive and user-friendly interfaces.'
-    },
-    {
-      title: 'Frontend Developer',
-      company: 'Freelance & Learning',
-      period: '2021 - 2022',
-      description: 'Creating responsive user interfaces and learning modern development practices with React and JavaScript.'
-    },
-    {
       title: 'Student Developer',
-      company: 'Academic Projects',
-      period: '2020 - 2021',
-      description: 'Learning programming fundamentals and building basic web applications while studying computer science.'
+      company: 'Personal Projects & Learning',
+      period: '2023 - Present',
+      description: 'Exploring web development, building projects with React, JavaScript, and Python. Learning data science fundamentals and machine learning concepts.'
+    },
+    {
+      title: 'College Student',
+      company: 'Computer Science Program',
+      period: '2022 - Present',
+      description: 'Studying computer science fundamentals, algorithms, data structures, and programming languages. Participating in coding competitions and hackathons.'
+    },
+    {
+      title: 'Beginner Programmer',
+      company: 'Self-Learning Journey',
+      period: '2021 - 2022',
+      description: 'Started learning programming basics, HTML, CSS, and JavaScript. Built first projects and discovered passion for technology.'
     }
   ];
 
@@ -113,22 +113,22 @@ const AboutSection = () => {
               </CardHeader>
               <CardContent className="text-gray-300">
                 <p className="mb-4">
-                  I'm a passionate full-stack developer with experience in creating 
-                  web applications that solve real-world problems. I love working with modern 
-                  technologies like React, JavaScript, and Python, and am always eager to learn new skills.
+                  I'm a passionate second-year college student exploring various technologies and programming languages. 
+                  I love experimenting with different tools and frameworks, and my ultimate goal is to become a data scientist. 
+                  I'm constantly learning and building projects to expand my skills.
                 </p>
                 <div className="grid grid-cols-2 gap-4 text-sm">
                   <div>
                     <strong>Location:</strong> India
                   </div>
                   <div>
-                    <strong>Experience:</strong> 2+ Years
+                    <strong>Education:</strong> Second Year Student
                   </div>
                   <div>
                     <strong>Email:</strong> swagatamandal16029@gmail.com
                   </div>
                   <div>
-                    <strong>Languages:</strong> English, Hindi
+                    <strong>Goal:</strong> Data Scientist
                   </div>
                 </div>
               </CardContent>
@@ -201,9 +201,9 @@ const AboutSection = () => {
             <TabsContent value="interests" className="mt-8">
               <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
                 {[
-                  { icon: GraduationCap, title: 'Continuous Learning', desc: 'Always exploring new technologies and frameworks' },
-                  { icon: Heart, title: 'Open Source', desc: 'Contributing to the developer community' },
-                  { icon: User, title: 'Mentoring', desc: 'Helping junior developers grow their skills' }
+                  { icon: GraduationCap, title: 'Data Science', desc: 'Learning machine learning, statistics, and data analysis techniques' },
+                  { icon: Heart, title: 'Problem Solving', desc: 'Enjoying coding challenges and algorithmic problem solving' },
+                  { icon: User, title: 'Continuous Learning', desc: 'Always exploring new technologies and frameworks' }
                 ].map((interest, index) => (
                   <motion.div
                     key={index}

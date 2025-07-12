@@ -91,11 +91,11 @@ const HeroSection = () => {
           className="mb-8"
         >
           <h2 className="mb-4 text-xl font-light text-gray-300 sm:text-2xl md:text-3xl lg:text-4xl">
-            Full Stack Developer & Creative Technologist
+            Second Year Student & Aspiring Data Scientist
           </h2>
           <p className="mx-auto max-w-3xl text-base leading-relaxed text-gray-400 sm:text-lg md:text-xl">
-            Crafting digital experiences with cutting-edge technologies and innovative design. 
-            Passionate about creating solutions that make a difference.
+            Exploring the world of programming and technology while building my path towards data science. 
+            Passionate about learning, problem-solving, and creating meaningful projects.
           </p>
         </motion.div>
 

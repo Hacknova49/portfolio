@@ -24,19 +24,19 @@ const SkillsSection = () => {
     {
       icon: Code,
       title: 'Frontend Development',
-      skills: ['React', 'JavaScript', 'HTML', 'CSS', 'Tailwind CSS', 'Framer Motion'],
+      skills: ['React', 'JavaScript', 'HTML', 'CSS', 'Tailwind CSS', 'Responsive Design'],
       color: 'from-blue-500 to-cyan-500'
     },
     {
       icon: Database,
-      title: 'Backend Development',
-      skills: ['Node.js', 'Python', 'Express.js', 'REST APIs', 'MongoDB', 'JSON'],
+      title: 'Programming Languages',
+      skills: ['JavaScript', 'Python', 'HTML', 'CSS', 'JSX', 'Markdown'],
       color: 'from-green-500 to-emerald-500'
     },
     {
       icon: Database,
-      title: 'Database & Storage',
-      skills: ['MongoDB', 'Local Storage', 'File System', 'Data Management', 'JSON'],
+      title: 'Data Science & ML',
+      skills: ['Python', 'Statistics', 'Data Analysis', 'Machine Learning', 'Pandas', 'NumPy'],
       color: 'from-purple-500 to-violet-500'
     },
     {
@@ -47,26 +47,26 @@ const SkillsSection = () => {
     },
     {
       icon: Cloud,
-      title: 'Deployment & Hosting',
-      skills: ['GitHub Pages', 'Netlify', 'Vercel', 'Static Hosting', 'Version Control'],
+      title: 'Learning & Projects',
+      skills: ['Personal Projects', 'Online Courses', 'Documentation', 'Tutorials', 'Practice'],
       color: 'from-orange-500 to-amber-500'
     },
     {
       icon: Palette,
-      title: 'UI/UX Design',
-      skills: ['Responsive Design', 'User Interface', 'User Experience', 'CSS Grid', 'Flexbox'],
+      title: 'Problem Solving',
+      skills: ['Algorithms', 'Data Structures', 'Competitive Programming', 'Debugging', 'Logic'],
       color: 'from-indigo-500 to-blue-500'
     },
     {
       icon: Zap,
-      title: 'Programming Languages',
-      skills: ['JavaScript', 'Python', 'HTML', 'CSS', 'JSX', 'Markdown'],
+      title: 'Web Development',
+      skills: ['React', 'Node.js', 'Express.js', 'MongoDB', 'REST APIs', 'JSON'],
       color: 'from-yellow-500 to-orange-500'
     },
     {
       icon: Shield,
-      title: 'Problem Solving',
-      skills: ['Algorithms', 'Data Structures', 'Competitive Programming', 'Debugging', 'Code Review'],
+      title: 'Academic Focus',
+      skills: ['Computer Science', 'Mathematics', 'Statistics', 'Research', 'Analysis'],
       color: 'from-red-500 to-pink-500'
     }
   ];
@@ -190,10 +190,10 @@ const SkillsSection = () => {
           className="grid grid-cols-2 md:grid-cols-4 gap-6 mt-16"
         >
           {[
-            { number: '4+', label: 'Projects Completed' },
-            { number: '2+', label: 'Years Experience' },
+            { number: '4+', label: 'Projects Built' },
+            { number: '2', label: 'Years Learning' },
             { number: '15+', label: 'Technologies' },
-            { number: '100%', label: 'Code Quality' }
+            { number: '100%', label: 'Dedication' }
           ].map((stat, index) => (
             <motion.div
               key={index}

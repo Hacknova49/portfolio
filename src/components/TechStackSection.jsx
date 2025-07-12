@@ -80,14 +80,14 @@ const TechStackSection = () => {
       color: '#000000'
     },
     {
-      name: 'JSON',
-      image: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/json/json-original.svg',
-      color: '#000000'
+      name: 'Pandas',
+      image: 'https://pandas.pydata.org/static/img/pandas_mark.svg',
+      color: '#130654'
     },
     {
-      name: 'Markdown',
-      image: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/markdown/markdown-original.svg',
-      color: '#000000'
+      name: 'NumPy',
+      image: 'https://numpy.org/images/logo.svg',
+      color: '#4DABCF'
     }
   ];
 
@@ -237,7 +237,7 @@ const TechStackSection = () => {
         >
           <h3 className="text-2xl font-bold text-white mb-6">Categories</h3>
           <div className="flex flex-wrap justify-center gap-3">
-            {['Frontend', 'Backend', 'Programming', 'Database', 'Tools', 'Build Tools'].map((category, index) => (
+            {['Frontend', 'Backend', 'Programming', 'Data Science', 'Tools', 'Build Tools'].map((category, index) => (
               <motion.span
                 key={category}
                 initial={{ opacity: 0, scale: 0.8 }}
