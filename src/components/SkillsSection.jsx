@@ -24,49 +24,49 @@ const SkillsSection = () => {
     {
       icon: Code,
       title: 'Frontend Development',
-      skills: ['React', 'Vue.js', 'TypeScript', 'Next.js', 'Tailwind CSS', 'Framer Motion'],
+      skills: ['React', 'JavaScript', 'HTML', 'CSS', 'Tailwind CSS', 'Framer Motion'],
       color: 'from-blue-500 to-cyan-500'
     },
     {
       icon: Database,
       title: 'Backend Development',
-      skills: ['Node.js', 'Python', 'Express.js', 'Django', 'GraphQL', 'REST APIs'],
+      skills: ['Node.js', 'Python', 'Express.js', 'REST APIs', 'MongoDB', 'JSON'],
       color: 'from-green-500 to-emerald-500'
     },
     {
       icon: Database,
       title: 'Database & Storage',
-      skills: ['MongoDB', 'PostgreSQL', 'Redis', 'Firebase', 'Supabase', 'AWS S3'],
+      skills: ['MongoDB', 'Local Storage', 'File System', 'Data Management', 'JSON'],
       color: 'from-purple-500 to-violet-500'
     },
     {
       icon: Smartphone,
-      title: 'Mobile Development',
-      skills: ['React Native', 'Flutter', 'Expo', 'iOS', 'Android', 'PWA'],
+      title: 'Development Tools',
+      skills: ['Git', 'GitHub', 'VS Code', 'Vite', 'npm', 'Package Management'],
       color: 'from-pink-500 to-rose-500'
     },
     {
       icon: Cloud,
-      title: 'Cloud & DevOps',
-      skills: ['AWS', 'Docker', 'Kubernetes', 'CI/CD', 'Vercel', 'Netlify'],
+      title: 'Deployment & Hosting',
+      skills: ['GitHub Pages', 'Netlify', 'Vercel', 'Static Hosting', 'Version Control'],
       color: 'from-orange-500 to-amber-500'
     },
     {
       icon: Palette,
-      title: 'Design & UI/UX',
-      skills: ['Figma', 'Adobe XD', 'Photoshop', 'Illustrator', 'Sketch', 'Principle'],
+      title: 'UI/UX Design',
+      skills: ['Responsive Design', 'User Interface', 'User Experience', 'CSS Grid', 'Flexbox'],
       color: 'from-indigo-500 to-blue-500'
     },
     {
       icon: Zap,
-      title: 'Tools & Frameworks',
-      skills: ['Git', 'Webpack', 'Vite', 'Jest', 'Cypress', 'Storybook'],
+      title: 'Programming Languages',
+      skills: ['JavaScript', 'Python', 'HTML', 'CSS', 'JSX', 'Markdown'],
       color: 'from-yellow-500 to-orange-500'
     },
     {
       icon: Shield,
-      title: 'Security & Testing',
-      skills: ['JWT', 'OAuth', 'Unit Testing', 'Integration Testing', 'Security Audits', 'OWASP'],
+      title: 'Problem Solving',
+      skills: ['Algorithms', 'Data Structures', 'Competitive Programming', 'Debugging', 'Code Review'],
       color: 'from-red-500 to-pink-500'
     }
   ];
@@ -190,10 +190,10 @@ const SkillsSection = () => {
           className="grid grid-cols-2 md:grid-cols-4 gap-6 mt-16"
         >
           {[
-            { number: '50+', label: 'Projects Completed' },
-            { number: '4+', label: 'Years Experience' },
-            { number: '20+', label: 'Technologies' },
-            { number: '100%', label: 'Client Satisfaction' }
+            { number: '4+', label: 'Projects Completed' },
+            { number: '2+', label: 'Years Experience' },
+            { number: '15+', label: 'Technologies' },
+            { number: '100%', label: 'Code Quality' }
           ].map((stat, index) => (
             <motion.div
               key={index}

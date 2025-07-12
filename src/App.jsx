@@ -7,6 +7,7 @@ import HeroSection from './components/HeroSection';
 import AboutSection from './components/AboutSection';
 import ProjectsSection from './components/ProjectsSection';
 import SkillsSection from './components/SkillsSection';
+import TechStackSection from './components/TechStackSection';
 import ContactSection from './components/ContactSection';
 import Footer from './components/Footer';
 
@@ -88,6 +89,7 @@ function App() {
               <main>
                 <HeroSection />
                 <AboutSection />
+                <TechStackSection />
                 <ProjectsSection />
                 <SkillsSection />
                 <ContactSection />

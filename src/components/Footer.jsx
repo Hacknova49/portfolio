@@ -49,14 +49,14 @@ const Footer = () => {
               transition={{ duration: 0.6, delay: 0.1 }}
               className="space-y-2"
             >
-              {['Home', 'About', 'Projects', 'Skills', 'Contact'].map((link) => (
+              {['Home', 'About', 'Tech Stack', 'Projects', 'Skills', 'Contact'].map((link) => (
                 <a
                   key={link}
-                  href={`#${link.toLowerCase()}`}
+                  href={`#${link.toLowerCase().replace(' ', '')}`}
                   className="block text-gray-400 transition-colors duration-200 hover:text-white"
                   onClick={(e) => {
                     e.preventDefault();
-                    document.getElementById(link.toLowerCase())?.scrollIntoView({
+                    document.getElementById(link.toLowerCase().replace(' ', ''))?.scrollIntoView({
                       behavior: 'smooth'
                     });
                   }}

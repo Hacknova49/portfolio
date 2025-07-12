@@ -47,39 +47,6 @@ const ProjectsSection = () => {
       github: 'https://github.com/Hacknova49/TextEditor',
       demo: 'https://github.com/Hacknova49/TextEditor',
       featured: true
-    },
-    {
-      id: 4,
-      title: 'GFG KIIT Noobmaster Hyperthon',
-      description: 'A competitive programming project showcasing advanced algorithms and data structures solutions for coding challenges.',
-      image: 'https://images.unsplash.com/photo-1504608524841-42fe6f032b4b?w=600&h=400&fit=crop',
-      category: 'algorithms',
-      technologies: ['Python', 'Algorithms', 'Data Structures', 'Competitive Programming'],
-      github: 'https://github.com/Hacknova49/GFGKIIT-noobmaster-hyperthon',
-      demo: 'https://github.com/Hacknova49/GFGKIIT-noobmaster-hyperthon',
-      featured: false
-    },
-    {
-      id: 5,
-      title: 'Portfolio Website',
-      description: 'A modern, responsive portfolio website built with React and Framer Motion, featuring smooth animations and interactive elements.',
-      image: 'https://images.unsplash.com/photo-1639762681485-074b7f938ba0?w=600&h=400&fit=crop',
-      category: 'frontend',
-      technologies: ['React', 'Framer Motion', 'Tailwind CSS', 'Vite'],
-      github: 'https://github.com/Hacknova49/portfolio',
-      demo: 'https://github.com/Hacknova49/portfolio',
-      featured: false
-    },
-    {
-      id: 6,
-      title: 'GitHub Profile',
-      description: 'My GitHub profile showcasing various projects, contributions, and coding journey with detailed repositories and documentation.',
-      image: 'https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=600&h=400&fit=crop',
-      category: 'development',
-      technologies: ['Git', 'GitHub', 'Documentation', 'Open Source'],
-      github: 'https://github.com/Hacknova49',
-      demo: 'https://github.com/Hacknova49',
-      featured: false
     }
   ];
 

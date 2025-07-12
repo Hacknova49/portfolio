@@ -37,32 +37,32 @@ const AboutSection = () => {
   };
 
   const skills = [
-    { name: 'JavaScript', level: 90 },
-    { name: 'React', level: 85 },
-    { name: 'Node.js', level: 80 },
+    { name: 'JavaScript', level: 85 },
+    { name: 'React', level: 80 },
+    { name: 'HTML/CSS', level: 90 },
     { name: 'Python', level: 75 },
-    { name: 'TypeScript', level: 70 },
-    { name: 'MongoDB', level: 75 },
+    { name: 'Node.js', level: 70 },
+    { name: 'MongoDB', level: 65 },
   ];
 
   const experiences = [
     {
-      title: 'Senior Full Stack Developer',
-      company: 'Tech Innovations Inc.',
+      title: 'Full Stack Developer',
+      company: 'Personal Projects',
       period: '2022 - Present',
-      description: 'Leading development of scalable web applications using React, Node.js, and cloud technologies.'
+      description: 'Developing web applications using React, Node.js, and modern web technologies. Building responsive and user-friendly interfaces.'
     },
     {
       title: 'Frontend Developer',
-      company: 'Digital Solutions Ltd.',
-      period: '2020 - 2022',
-      description: 'Developed responsive user interfaces and improved user experience across multiple platforms.'
+      company: 'Freelance & Learning',
+      period: '2021 - 2022',
+      description: 'Creating responsive user interfaces and learning modern development practices with React and JavaScript.'
     },
     {
-      title: 'Junior Developer',
-      company: 'StartUp Ventures',
-      period: '2019 - 2020',
-      description: 'Built and maintained web applications while learning modern development practices.'
+      title: 'Student Developer',
+      company: 'Academic Projects',
+      period: '2020 - 2021',
+      description: 'Learning programming fundamentals and building basic web applications while studying computer science.'
     }
   ];
 
@@ -113,16 +113,16 @@ const AboutSection = () => {
               </CardHeader>
               <CardContent className="text-gray-300">
                 <p className="mb-4">
-                  I'm a passionate full-stack developer with over 4 years of experience in creating 
+                  I'm a passionate full-stack developer with experience in creating 
                   web applications that solve real-world problems. I love working with modern 
-                  technologies and am always eager to learn new skills.
+                  technologies like React, JavaScript, and Python, and am always eager to learn new skills.
                 </p>
                 <div className="grid grid-cols-2 gap-4 text-sm">
                   <div>
                     <strong>Location:</strong> India
                   </div>
                   <div>
-                    <strong>Experience:</strong> 4+ Years
+                    <strong>Experience:</strong> 2+ Years
                   </div>
                   <div>
                     <strong>Email:</strong> swagatamandal16029@gmail.com
