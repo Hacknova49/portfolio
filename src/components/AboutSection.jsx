@@ -125,7 +125,7 @@ const AboutSection = () => {
                     <strong>Experience:</strong> 4+ Years
                   </div>
                   <div>
-                    <strong>Email:</strong> contact@hacknova.dev
+                    <strong>Email:</strong> swagatamandal16029@gmail.com
                   </div>
                   <div>
                     <strong>Languages:</strong> English, Hindi

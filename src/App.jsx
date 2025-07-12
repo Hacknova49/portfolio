@@ -47,8 +47,8 @@ function App() {
     <div className="overflow-x-hidden min-h-screen text-white bg-black">
       <AnimatePresence mode="wait">
         {isLoading && (
-          <LoadingScreen 
-            key="loading" 
+          <LoadingScreen
+            key="loading"
             onComplete={handleLoadingComplete}
           />
         )}
@@ -67,6 +67,8 @@ function App() {
               <Beams
                 beamWidth={2}
                 beamHeight={15}
+
+
                 beamNumber={12}
                 lightColor="#ffffff"
                 speed={2}
@@ -82,7 +84,7 @@ function App() {
             {/* Main Content */}
             <div className="relative z-10">
               <Navigation />
-              
+
               <main>
                 <HeroSection />
                 <AboutSection />
@@ -90,7 +92,7 @@ function App() {
                 <SkillsSection />
                 <ContactSection />
               </main>
-              
+
               <Footer />
             </div>
 

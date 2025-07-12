@@ -25,8 +25,8 @@ const Navigation = () => {
 
   const socialLinks = [
     { icon: Github, href: 'https://github.com/Hacknova49', label: 'GitHub' },
-    { icon: Linkedin, href: '#', label: 'LinkedIn' },
-    { icon: Mail, href: 'mailto:your.email@example.com', label: 'Email' },
+    { icon: Linkedin, href: 'https://www.linkedin.com/in/swagata-mandal49?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app', label: 'LinkedIn' },
+    { icon: Mail, href: 'mailto:swagatamandal16029@gmail.com', label: 'Email' },
   ];
 
   return (

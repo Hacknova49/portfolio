@@ -83,7 +83,7 @@ const Footer = () => {
               transition={{ duration: 0.6, delay: 0.1 }}
               className="space-y-2 text-gray-400"
             >
-              <p>contact@hacknova.dev</p>
+              <p>swagatamandal16029@gmail.com</p>
               <p>+91 12345 67890</p>
               <p>India</p>
             </motion.div>

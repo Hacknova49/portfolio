@@ -17,68 +17,68 @@ const ProjectsSection = () => {
   const projects = [
     {
       id: 1,
-      title: 'E-Commerce Platform',
-      description: 'A full-stack e-commerce solution with React, Node.js, and MongoDB. Features include user authentication, payment processing, and admin dashboard.',
+      title: 'Resume Maker',
+      description: 'A comprehensive resume builder application that allows users to create professional resumes with customizable templates and real-time preview.',
       image: 'https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?w=600&h=400&fit=crop',
       category: 'fullstack',
-      technologies: ['React', 'Node.js', 'MongoDB', 'Stripe'],
-      github: 'https://github.com/Hacknova49',
-      demo: '#',
+      technologies: ['React', 'Node.js', 'MongoDB', 'Express'],
+      github: 'https://github.com/Hacknova49/Resume-Maker',
+      demo: 'https://github.com/Hacknova49/Resume-Maker',
       featured: true
     },
     {
       id: 2,
-      title: 'Task Management App',
-      description: 'A collaborative task management application with real-time updates, drag-and-drop functionality, and team collaboration features.',
+      title: 'Language Translator',
+      description: 'A multi-language translation application that supports real-time text translation between multiple languages with a user-friendly interface.',
       image: 'https://images.unsplash.com/photo-1611224923853-80b023f02d71?w=600&h=400&fit=crop',
       category: 'frontend',
-      technologies: ['React', 'TypeScript', 'Socket.io', 'Tailwind'],
-      github: 'https://github.com/Hacknova49',
-      demo: '#',
-      featured: false
+      technologies: ['React', 'JavaScript', 'API Integration', 'CSS'],
+      github: 'https://github.com/Hacknova49/Language-Translator',
+      demo: 'https://github.com/Hacknova49/Language-Translator',
+      featured: true
     },
     {
       id: 3,
-      title: 'AI Chat Bot',
-      description: 'An intelligent chatbot powered by machine learning algorithms. Includes natural language processing and context-aware responses.',
+      title: 'Text Editor',
+      description: 'A feature-rich text editor with syntax highlighting, file management, and multiple editing modes for developers and writers.',
       image: 'https://images.unsplash.com/photo-1677442136019-21780ecad995?w=600&h=400&fit=crop',
-      category: 'ai',
-      technologies: ['Python', 'TensorFlow', 'Flask', 'React'],
-      github: 'https://github.com/Hacknova49',
-      demo: '#',
+      category: 'frontend',
+      technologies: ['React', 'JavaScript', 'HTML', 'CSS'],
+      github: 'https://github.com/Hacknova49/TextEditor',
+      demo: 'https://github.com/Hacknova49/TextEditor',
       featured: true
     },
     {
       id: 4,
-      title: 'Weather Dashboard',
-      description: 'A responsive weather dashboard with location-based forecasts, interactive maps, and historical weather data visualization.',
+      title: 'GFG KIIT Noobmaster Hyperthon',
+      description: 'A competitive programming project showcasing advanced algorithms and data structures solutions for coding challenges.',
       image: 'https://images.unsplash.com/photo-1504608524841-42fe6f032b4b?w=600&h=400&fit=crop',
-      category: 'frontend',
-      technologies: ['Vue.js', 'Chart.js', 'OpenWeather API'],
-      github: 'https://github.com/Hacknova49',
-      demo: '#',
+      category: 'algorithms',
+      technologies: ['Python', 'Algorithms', 'Data Structures', 'Competitive Programming'],
+      github: 'https://github.com/Hacknova49/GFGKIIT-noobmaster-hyperthon',
+      demo: 'https://github.com/Hacknova49/GFGKIIT-noobmaster-hyperthon',
       featured: false
     },
     {
       id: 5,
-      title: 'Blockchain Voting System',
-      description: 'A secure voting system built on blockchain technology ensuring transparency and immutability of votes.',
+      title: 'Portfolio Website',
+      description: 'A modern, responsive portfolio website built with React and Framer Motion, featuring smooth animations and interactive elements.',
       image: 'https://images.unsplash.com/photo-1639762681485-074b7f938ba0?w=600&h=400&fit=crop',
-      category: 'blockchain',
-      technologies: ['Solidity', 'Web3.js', 'React', 'Ethereum'],
-      github: 'https://github.com/Hacknova49',
-      demo: '#',
-      featured: true
+      category: 'frontend',
+      technologies: ['React', 'Framer Motion', 'Tailwind CSS', 'Vite'],
+      github: 'https://github.com/Hacknova49/portfolio',
+      demo: 'https://github.com/Hacknova49/portfolio',
+      featured: false
     },
     {
       id: 6,
-      title: 'Social Media Analytics',
-      description: 'A comprehensive analytics dashboard for social media metrics with real-time data visualization and reporting features.',
+      title: 'GitHub Profile',
+      description: 'My GitHub profile showcasing various projects, contributions, and coding journey with detailed repositories and documentation.',
       image: 'https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=600&h=400&fit=crop',
-      category: 'fullstack',
-      technologies: ['React', 'D3.js', 'Node.js', 'PostgreSQL'],
+      category: 'development',
+      technologies: ['Git', 'GitHub', 'Documentation', 'Open Source'],
       github: 'https://github.com/Hacknova49',
-      demo: '#',
+      demo: 'https://github.com/Hacknova49',
       featured: false
     }
   ];
@@ -87,8 +87,8 @@ const ProjectsSection = () => {
     { id: 'all', name: 'All Projects' },
     { id: 'fullstack', name: 'Full Stack' },
     { id: 'frontend', name: 'Frontend' },
-    { id: 'ai', name: 'AI/ML' },
-    { id: 'blockchain', name: 'Blockchain' }
+    { id: 'algorithms', name: 'Algorithms' },
+    { id: 'development', name: 'Development' }
   ];
 
   const filteredProjects = filter === 'all' 
