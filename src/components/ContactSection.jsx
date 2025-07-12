@@ -88,18 +88,6 @@ const ContactSection = () => {
       name: 'LinkedIn',
       url: 'https://www.linkedin.com/in/swagata-mandal49?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app',
       color: 'hover:text-blue-400'
-    },
-    {
-      icon: Twitter,
-      name: 'Twitter',
-      url: '#',
-      color: 'hover:text-blue-400'
-    },
-    {
-      icon: MessageCircle,
-      name: 'Discord',
-      url: '#',
-      color: 'hover:text-purple-400'
     }
   ];
 

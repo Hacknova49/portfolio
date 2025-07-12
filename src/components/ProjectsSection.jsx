@@ -3,7 +3,7 @@ import { motion, AnimatePresence } from 'framer-motion';
 import { useInView } from 'react-intersection-observer';
 import { Card, CardContent, CardHeader, CardTitle } from './ui/card';
 import { Button } from './ui/button';
-import { ExternalLink, Github, Filter } from 'lucide-react';
+import { ExternalLink, Github, Filter, Star } from 'lucide-react';
 import TiltedCard from '../TiltedCard/TiltedCard';
 
 const ProjectsSection = () => {
@@ -19,7 +19,7 @@ const ProjectsSection = () => {
       id: 1,
       title: 'Resume Maker',
       description: 'A comprehensive resume builder application that allows users to create professional resumes with customizable templates and real-time preview.',
-      image: 'https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?w=600&h=400&fit=crop',
+      image: 'https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=600&h=400&fit=crop',
       category: 'fullstack',
       technologies: ['React', 'Node.js', 'MongoDB', 'Express'],
       github: 'https://github.com/Hacknova49/Resume-Maker',
@@ -30,7 +30,7 @@ const ProjectsSection = () => {
       id: 2,
       title: 'Language Translator',
       description: 'A multi-language translation application that supports real-time text translation between multiple languages with a user-friendly interface.',
-      image: 'https://images.unsplash.com/photo-1611224923853-80b023f02d71?w=600&h=400&fit=crop',
+      image: 'https://images.unsplash.com/photo-1546410531-bb4caa6b424d?w=600&h=400&fit=crop',
       category: 'frontend',
       technologies: ['React', 'JavaScript', 'API Integration', 'CSS'],
       github: 'https://github.com/Hacknova49/Language-Translator',
@@ -41,7 +41,7 @@ const ProjectsSection = () => {
       id: 3,
       title: 'Text Editor',
       description: 'A feature-rich text editor with syntax highlighting, file management, and multiple editing modes for developers and writers.',
-      image: 'https://images.unsplash.com/photo-1677442136019-21780ecad995?w=600&h=400&fit=crop',
+      image: 'https://images.unsplash.com/photo-1555949963-ff9fe0c870eb?w=600&h=400&fit=crop',
       category: 'frontend',
       technologies: ['React', 'JavaScript', 'HTML', 'CSS'],
       github: 'https://github.com/Hacknova49/TextEditor',
@@ -186,7 +186,7 @@ const ProjectsSection = () => {
                       ))}
                     </div>
 
-                    <div className="flex gap-3">
+                    <div className="flex gap-2">
                       <Button
                         variant="outline"
                         size="sm"
@@ -195,6 +195,15 @@ const ProjectsSection = () => {
                       >
                         <Github className="mr-2" size={16} />
                         Code
+                      </Button>
+                      <Button
+                        variant="outline"
+                        size="sm"
+                        className="flex-1 border-gray-600 text-gray-300 hover:bg-gray-700"
+                        onClick={() => window.open(project.github, '_blank')}
+                      >
+                        <Star className="mr-2" size={16} />
+                        Star
                       </Button>
                       <Button
                         size="sm"
