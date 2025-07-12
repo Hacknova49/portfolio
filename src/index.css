@@ -49,7 +49,7 @@
 
 @layer base {
   * {
-    /* @apply border-border; */
+    @apply border-border;
   }
   body {
     background-color: hsl(var(--background));
