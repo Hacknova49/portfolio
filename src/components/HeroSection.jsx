@@ -1,4 +1,4 @@
-import React, { useEffect, useRef } from 'react';
+import React, { useRef } from 'react';
 import { motion, useScroll, useTransform } from 'framer-motion';
 import { useInView } from 'react-intersection-observer';
 import TextPressure from '../TextPressure/TextPressure';
@@ -47,7 +47,7 @@ const HeroSection = () => {
     <section
       id="home"
       ref={containerRef}
-      className="relative min-h-screen flex items-center justify-center overflow-hidden"
+      className="flex overflow-hidden relative justify-center items-center min-h-screen"
     >
       {/* Parallax Background */}
       <motion.div
@@ -62,14 +62,14 @@ const HeroSection = () => {
         variants={containerVariants}
         initial="hidden"
         animate={inView ? "visible" : "hidden"}
-        className="relative z-10 text-center px-4 sm:px-6 lg:px-8 max-w-7xl mx-auto"
+        className="relative z-10 px-4 mx-auto max-w-7xl text-center sm:px-6 lg:px-8"
       >
         {/* Main Title */}
         <motion.div
           variants={itemVariants}
           className="mb-8"
         >
-          <div className="h-32 sm:h-48 md:h-64 flex items-center justify-center">
+          <div className="flex justify-center items-center h-32 sm:h-48 md:h-64">
             <TextPressure
               text="HACKNOVA"
               flex={true}
@@ -90,10 +90,10 @@ const HeroSection = () => {
           variants={itemVariants}
           className="mb-8"
         >
-          <h2 className="text-xl sm:text-2xl md:text-3xl lg:text-4xl font-light text-gray-300 mb-4">
+          <h2 className="mb-4 text-xl font-light text-gray-300 sm:text-2xl md:text-3xl lg:text-4xl">
             Full Stack Developer & Creative Technologist
           </h2>
-          <p className="text-base sm:text-lg md:text-xl text-gray-400 max-w-3xl mx-auto leading-relaxed">
+          <p className="mx-auto max-w-3xl text-base leading-relaxed text-gray-400 sm:text-lg md:text-xl">
             Crafting digital experiences with cutting-edge technologies and innovative design. 
             Passionate about creating solutions that make a difference.
           </p>
@@ -102,11 +102,11 @@ const HeroSection = () => {
         {/* Action Buttons */}
         <motion.div
           variants={itemVariants}
-          className="flex flex-col sm:flex-row gap-4 justify-center items-center mb-12"
+          className="flex flex-col gap-4 justify-center items-center mb-12 sm:flex-row"
         >
           <Button
             size="lg"
-            className="bg-gradient-to-r from-blue-600 to-purple-600 hover:from-blue-700 hover:to-purple-700 text-white px-8 py-3 rounded-full transition-all duration-300 transform hover:scale-105"
+            className="px-8 py-3 text-white bg-gradient-to-r from-blue-600 to-purple-600 rounded-full transition-all duration-300 transform hover:from-blue-700 hover:to-purple-700 hover:scale-105"
             onClick={() => document.getElementById('projects')?.scrollIntoView({ behavior: 'smooth' })}
           >
             <Code className="mr-2" size={20} />
@@ -115,7 +115,7 @@ const HeroSection = () => {
           <Button
             variant="outline"
             size="lg"
-            className="border-white text-white hover:bg-white hover:text-black px-8 py-3 rounded-full transition-all duration-300 transform hover:scale-105"
+            className="px-8 py-3 text-white rounded-full border-white transition-all duration-300 transform hover:bg-white hover:text-black hover:scale-105"
             onClick={() => document.getElementById('contact')?.scrollIntoView({ behavior: 'smooth' })}
           >
             <Sparkles className="mr-2" size={20} />
@@ -163,10 +163,10 @@ const HeroSection = () => {
           <motion.div
             animate={{ y: [0, 10, 0] }}
             transition={{ duration: 2, repeat: Infinity }}
-            className="flex flex-col items-center text-white/60 cursor-pointer"
+            className="flex flex-col items-center cursor-pointer text-white/60"
             onClick={() => document.getElementById('about')?.scrollIntoView({ behavior: 'smooth' })}
           >
-            <span className="text-sm mb-2 hidden sm:block">Scroll Down</span>
+            <span className="hidden mb-2 text-sm sm:block">Scroll Down</span>
             <ArrowDown size={24} />
           </motion.div>
         </motion.div>

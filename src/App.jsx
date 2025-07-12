@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { motion, AnimatePresence } from 'framer-motion';
+import { motion, AnimatePresence, useScroll } from 'framer-motion';
 import Beams from './Beams/Beams';
 import Navigation from './components/Navigation';
 import LoadingScreen from './components/LoadingScreen';
@@ -12,7 +12,7 @@ import Footer from './components/Footer';
 
 function App() {
   const [isLoading, setIsLoading] = useState(true);
-  const [isReady, setIsReady] = useState(false);
+  const { scrollYProgress } = useScroll();
 
   useEffect(() => {
     // Preload critical resources
@@ -34,7 +34,7 @@ function App() {
     ).finally(() => {
       // Minimum loading time for better UX
       setTimeout(() => {
-        setIsReady(true);
+        // Loading is handled by LoadingScreen component
       }, 2000);
     });
   }, []);
@@ -44,7 +44,7 @@ function App() {
   };
 
   return (
-    <div className="min-h-screen bg-black text-white overflow-x-hidden">
+    <div className="overflow-x-hidden min-h-screen text-white bg-black">
       <AnimatePresence mode="wait">
         {isLoading && (
           <LoadingScreen 
@@ -96,11 +96,8 @@ function App() {
 
             {/* Scroll Progress Indicator */}
             <motion.div
-              className="fixed top-0 left-0 right-0 h-1 bg-gradient-to-r from-blue-500 to-purple-500 z-50 origin-left"
-              style={{
-                scaleX: typeof window !== 'undefined' ? 
-                  window.scrollY / (document.documentElement.scrollHeight - window.innerHeight) : 0
-              }}
+              className="fixed top-0 right-0 left-0 z-50 h-1 bg-gradient-to-r from-blue-500 to-purple-500 origin-left"
+              style={{ scaleX: scrollYProgress }}
             />
           </motion.div>
         )}

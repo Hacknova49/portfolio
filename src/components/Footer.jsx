@@ -10,8 +10,8 @@ const Footer = () => {
 
   return (
     <footer className="bg-gray-900 border-t border-gray-800">
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+      <div className="px-4 py-12 mx-auto max-w-7xl sm:px-6 lg:px-8">
+        <div className="grid grid-cols-1 gap-8 md:grid-cols-3">
           {/* Brand Section */}
           <div className="space-y-4">
             <motion.h3
@@ -26,7 +26,7 @@ const Footer = () => {
               initial={{ opacity: 0, y: 20 }}
               whileInView={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.6, delay: 0.1 }}
-              className="text-gray-400 max-w-md"
+              className="max-w-md text-gray-400"
             >
               Passionate full-stack developer creating innovative digital solutions 
               with modern technologies and creative design.
@@ -53,7 +53,7 @@ const Footer = () => {
                 <a
                   key={link}
                   href={`#${link.toLowerCase()}`}
-                  className="block text-gray-400 hover:text-white transition-colors duration-200"
+                  className="block text-gray-400 transition-colors duration-200 hover:text-white"
                   onClick={(e) => {
                     e.preventDefault();
                     document.getElementById(link.toLowerCase())?.scrollIntoView({
@@ -95,16 +95,16 @@ const Footer = () => {
           initial={{ opacity: 0, y: 20 }}
           whileInView={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.6, delay: 0.2 }}
-          className="mt-12 pt-8 border-t border-gray-800 flex flex-col md:flex-row justify-between items-center"
+          className="flex flex-col justify-between items-center pt-8 mt-12 border-t border-gray-800 md:flex-row"
         >
-          <div className="flex items-center text-gray-400 mb-4 md:mb-0">
+          <div className="flex items-center mb-4 text-gray-400 md:mb-0">
             <span>Made with</span>
             <Heart className="mx-2 text-red-500" size={16} />
             <span>by HACKNOVA</span>
           </div>
 
           <div className="flex items-center space-x-4">
-            <span className="text-gray-400 text-sm">
+            <span className="text-sm text-gray-400">
               © {new Date().getFullYear()} All rights reserved.
             </span>
             <Button
