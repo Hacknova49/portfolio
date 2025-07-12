@@ -39,13 +39,13 @@ const ProjectsSection = () => {
     },
     {
       id: 3,
-      title: 'Text Editor',
-      description: 'A feature-rich text editor with syntax highlighting, file management, and multiple editing modes for developers and writers.',
-      image: 'https://images.unsplash.com/photo-1555949963-ff9fe0c870eb?w=600&h=400&fit=crop',
+      title: 'Portfolio Website',
+      description: 'My personal portfolio website built with React, Vite, and Tailwind CSS. Showcases my projects, skills, and contact information in a modern, interactive design.',
+      image: 'https://images.unsplash.com/photo-1467232004584-a241de8bcf5d?w=600&h=400&fit=crop',
       category: 'frontend',
-      technologies: ['React', 'JavaScript', 'HTML', 'CSS'],
-      github: 'https://github.com/Hacknova49/TextEditor',
-      demo: 'https://github.com/Hacknova49/TextEditor',
+      technologies: ['React', 'Vite', 'Tailwind CSS', 'Framer Motion'],
+      github: 'https://github.com/Hacknova49/portfolio',
+      demo: 'https://github.com/Hacknova49/portfolio',
       featured: true
     }
   ];
