@@ -7,7 +7,7 @@ import Beams from './Beams/Beams';
 import TiltedCard from './TiltedCard/TiltedCard';
 import FlowingMenu from './FlowingMenu/FlowingMenu'
 import GitHubStats from './components/githubstats';
-import img1 from './img/img1.jpg';
+import img1 from './img/img1.JPG';
 
 const demoItems = [
   { link: '#', text: 'Mojave', image: 'https://picsum.photos/600/400?random=1' },
