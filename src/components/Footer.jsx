@@ -84,25 +84,13 @@ const Footer = () => {
               className="space-y-2 text-gray-400"
             >
               <p>swagatamandal16029@gmail.com</p>
-              <p>+91 12345 67890</p>
               <p>India</p>
             </motion.div>
           </div>
         </div>
 
         {/* Bottom Section */}
-        <motion.div
-          initial={{ opacity: 0, y: 20 }}
-          whileInView={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.6, delay: 0.2 }}
-          className="flex flex-col justify-between items-center pt-8 mt-12 border-t border-gray-800 md:flex-row"
-        >
-          <div className="flex items-center mb-4 text-gray-400 md:mb-0">
-            <span>Made with</span>
-            <Heart className="mx-2 text-red-500" size={16} />
-            <span>by HACKNOVA</span>
-          </div>
-
+        <motion.div>     
           <div className="flex items-center space-x-4">
             <span className="text-sm text-gray-400">
               © {new Date().getFullYear()} All rights reserved.

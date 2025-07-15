@@ -63,12 +63,6 @@ const ContactSection = () => {
       link: 'mailto:swagatamandal16029@gmail.com'
     },
     {
-      icon: Phone,
-      title: 'Phone',
-      value: '+91 12345 67890',
-      link: 'tel:+911234567890'
-    },
-    {
       icon: MapPin,
       title: 'Location',
       value: 'India',

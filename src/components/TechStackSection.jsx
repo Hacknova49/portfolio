@@ -204,12 +204,11 @@ const TechStackSection = () => {
         {/* Stats Section */}
         <motion.div
           variants={containerVariants}
-          className="grid grid-cols-2 md:grid-cols-4 gap-6 mt-20"
+          className="grid grid-cols-2 md:grid-cols-3 gap-6 mt-20"
         >
           {[
             { number: '16', label: 'Technologies' },
             { number: '6', label: 'Categories' },
-            { number: '100%', label: 'Proficiency' },
             { number: '24/7', label: 'Learning' }
           ].map((stat, index) => (
             <motion.div
