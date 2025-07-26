@@ -47,22 +47,22 @@ const AboutSection = () => {
 
   const experiences = [
     {
-      title: 'Student Developer',
-      company: 'Personal Projects & Learning',
-      period: '2023 - Present',
-      description: 'Exploring web development, building projects with React, JavaScript, and Python. Learning data science fundamentals and machine learning concepts.'
-    },
-    {
       title: 'College Student',
       company: 'Computer Science Program',
-      period: '2022 - Present',
+      period: '2024 - Present',
       description: 'Studying computer science fundamentals, algorithms, data structures, and programming languages. Participating in coding competitions and hackathons.'
     },
     {
+      title: 'Student Developer',
+      company: 'Personal Projects & Learning',
+      period: '2023 - 2024',
+      description: 'Exploring web development, building projects with React, JavaScript, and Python. Learning data science fundamentals and machine learning concepts.'
+    },
+    {
       title: 'Beginner Programmer',
-      company: 'Self-Learning Journey',
-      period: '2021 - 2022',
-      description: 'Started learning programming basics, HTML, CSS, and JavaScript. Built first projects and discovered passion for technology.'
+      company: 'Self-Taught',
+      period: '2019 - Present',
+      description: 'Started learning programming fundamentals through online courses and tutorials. Building basic applications and learning core programming concepts.'
     }
   ];
 
