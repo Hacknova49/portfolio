@@ -55,7 +55,7 @@ const AboutSection = () => {
     {
       title: 'Student Developer',
       company: 'Personal Projects & Learning',
-      period: '2023 - 2024',
+      period: '2023 - Present',
       description: 'Exploring web development, building projects with React, JavaScript, and Python. Learning data science fundamentals and machine learning concepts.'
     },
     {
