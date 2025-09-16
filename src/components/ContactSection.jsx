@@ -59,8 +59,8 @@ const ContactSection = () => {
     {
       icon: Mail,
       title: 'Email',
-      value: 'swagatamandal16029@gmail.com',
-      link: 'mailto:swagatamandal16029@gmail.com'
+      value: 'imortalx9@gmail.com',
+      link: 'mailto:imortalx9@gmail.com'
     },
     {
       icon: MapPin,
